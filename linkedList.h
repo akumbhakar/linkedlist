@@ -21,6 +21,8 @@ int insert_node_at_head(struct node **head,struct consumer customer);
 int search_node(struct node *copy_head, char* customer_ID);
 int print_node(struct node *copy_head);
 int delete_node(struct node **head,char* customer_ID);
+int insert_at_index(struct node **head, int index, struct consumer customer);
+int delete_at_index(struct node **head, int index);
 
 
 #endif
